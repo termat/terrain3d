@@ -28,7 +28,7 @@ const dirLight = new SunLight({
 const mvt=()=>{
   const layer = new MVTLayer({
     id:"mvt",
-    data: `${process.env.PUBLIC_URL}/pbf/{z}/{x}/{y}.pbf`,
+    data: `{${process.env.PUBLIC_URL}}/pbf/{z}/{x}/{y}.pbf`,
     minZoom: 12,
     maxZoom: 16,
     getLineColor: [192, 192, 192],
@@ -50,7 +50,7 @@ const t3=()=>{
     id: "tile3dlayer" + count,
     pointSize: 1,
     pickable: true,
-    data: "27128_chuo-ku/tileset.json",
+    data: "${process.env.PUBLIC_URL}/27128_chuo-ku/tileset.json",
     loader: _dTiles.Tiles3DLoader,
     onClick: function onClick(d) {},
     onTilesetLoad: function onTilesetLoad(tileset) {
