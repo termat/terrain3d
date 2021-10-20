@@ -1,0 +1,21 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #2c7ab9;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  font: 12px Helvetica Neue, Arial, Helvetica, sans-serif;
+  line-height: 12px;
+  padding: 4px;
+  z-index: 9;
+}
