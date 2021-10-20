@@ -82,6 +82,8 @@ const App = () => {
     latitude: 34.79,
     longitude: 135.35,
     zoom: 15.0,
+    minZoom:12.0,
+    maxZoom:18.0,
     bearing: 0,
     pitch: 65,
     maxPitch: 89
