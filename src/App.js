@@ -29,7 +29,7 @@ const dirLight = new SunLight({
 const mvt=()=>{
   const layer = new MVTLayer({
     id:"mvt",
-    data: `/pbf/{z}/{x}/{y}.pbf`,
+    data: `pbf/{z}/{x}/{y}.pbf`,
     minZoom: 12,
     maxZoom: 16,
     getLineColor: [192, 192, 192],
