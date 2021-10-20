@@ -28,7 +28,7 @@ const dirLight = new SunLight({
 const mvt=()=>{
   const layer = new MVTLayer({
     id:"mvt",
-    data: `%PUBLIC_URL%/terrain3d/pbf/{z}/{x}/{y}.pbf`,
+    data: `${process.env.PUBLIC_URL}/pbf/{z}/{x}/{y}.pbf`,
     minZoom: 12,
     maxZoom: 16,
     getLineColor: [192, 192, 192],
