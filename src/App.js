@@ -9,7 +9,6 @@ import {
 } from "@deck.gl/core";
 import {MVTLayer} from '@deck.gl/geo-layers';
 import { renderLayers } from "./RenderLayers";
-import pbf from '/pbf'
 
 var _dTiles = require("@loaders.gl/3d-tiles");
 var count = 0;
@@ -29,7 +28,7 @@ const dirLight = new SunLight({
 const mvt=()=>{
   const layer = new MVTLayer({
     id:"mvt",
-    data: "${process.env.PUBLIC_URL}/pbf/{z}/{x}/{y}.pbf",
+    data: "https://termat.github.io/terrain3d/pbf/{z}/{x}/{y}.pbf",
     minZoom: 12,
     maxZoom: 16,
     getLineColor: [192, 192, 192],
