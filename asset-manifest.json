@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e0689bd.chunk.css",
-    "main.js": "/static/js/main.5b6332fe.chunk.js",
-    "main.js.map": "/static/js/main.5b6332fe.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0daa01ae.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0daa01ae.js.map",
-    "static/js/2.62c8ac7d.chunk.js": "/static/js/2.62c8ac7d.chunk.js",
-    "static/js/2.62c8ac7d.chunk.js.map": "/static/js/2.62c8ac7d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.9e0689bd.chunk.css.map": "/static/css/main.9e0689bd.chunk.css.map",
-    "static/js/2.62c8ac7d.chunk.js.LICENSE.txt": "/static/js/2.62c8ac7d.chunk.js.LICENSE.txt"
+    "main.css": "/terrain3d/static/css/main.9e0689bd.chunk.css",
+    "main.js": "/terrain3d/static/js/main.5b6332fe.chunk.js",
+    "main.js.map": "/terrain3d/static/js/main.5b6332fe.chunk.js.map",
+    "runtime-main.js": "/terrain3d/static/js/runtime-main.e7d8b2b4.js",
+    "runtime-main.js.map": "/terrain3d/static/js/runtime-main.e7d8b2b4.js.map",
+    "static/js/2.62c8ac7d.chunk.js": "/terrain3d/static/js/2.62c8ac7d.chunk.js",
+    "static/js/2.62c8ac7d.chunk.js.map": "/terrain3d/static/js/2.62c8ac7d.chunk.js.map",
+    "index.html": "/terrain3d/index.html",
+    "static/css/main.9e0689bd.chunk.css.map": "/terrain3d/static/css/main.9e0689bd.chunk.css.map",
+    "static/js/2.62c8ac7d.chunk.js.LICENSE.txt": "/terrain3d/static/js/2.62c8ac7d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0daa01ae.js",
+    "static/js/runtime-main.e7d8b2b4.js",
     "static/js/2.62c8ac7d.chunk.js",
     "static/css/main.9e0689bd.chunk.css",
     "static/js/main.5b6332fe.chunk.js"
