@@ -1,7 +1,8 @@
 import { TerrainLayer } from "deck.gl";
 
 const TERRAIN_IMAGE = `https://www.termat.net/dem/{z}/{x}/{y}`;
-const SURFACE_IMAGE = 'https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg';
+//const SURFACE_IMAGE = 'https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg';
+const SURFACE_IMAGE = 'https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png';
 
 const ELEVATION_DECODER = {
   rScaler: 6553.6,
