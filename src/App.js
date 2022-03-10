@@ -30,7 +30,7 @@ const mvt=()=>{
     id:"mvt",
     data: "https://termat.github.io/terrain3d/pbf/{z}/{x}/{y}.pbf",
     minZoom: 12,
-    maxZoom: 16,
+    maxZoom: 18,
     getLineColor: [192, 192, 192],
     getFillColor: [140, 170, 180],
     lineWidthMinPixels: 1,
